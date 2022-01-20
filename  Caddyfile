@@ -1,0 +1,7 @@
+:4000 {
+    file_server {
+        root ./
+        index index.html
+        hide .git
+    }
+}

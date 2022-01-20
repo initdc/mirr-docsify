@@ -1,0 +1,48 @@
+{
+  "name": "mirr-docsify",
+  "version": "0.0.0",
+  "description": "> A free CDN for Open Source",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/initdc/mirr-docsify.git"
+  },
+  "author": "initdc",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/initdc/mirr-docsify/issues"
+  },
+  "homepage": "https://github.com/initdc/mirr-docsify#readme",
+  "lint-staged": {
+    "*": "prettier -wu ."
+  },
+  "scripts": {
+    "dev": "caddy run --config \\ Caddyfile --adapter caddyfile",
+    "commit": "commit",
+    "fmt:c": "prettier -cu .",
+    "fmt:w": "prettier -wu  .",
+    "rel": "standard-version --help",
+    "rel:d": "standard-version --dry-run",
+    "rel:d:as": "standard-version --dry-run --release-as",
+    "rel:d:m": "standard-version --dry-run --release-as major",
+    "rel:d:n": "standard-version --dry-run --release-as minor",
+    "rel:d:p": "standard-version --dry-run --release-as patch",
+    "rel:v": "standard-version",
+    "rel:v:as": "standard-version --release-as",
+    "rel:v:m": "standard-version --release-as major",
+    "rel:v:n": "standard-version --release-as minor",
+    "rel:v:p": "standard-version --release-as patch",
+    "pub:g": "conventional-github-releaser -v",
+    "pub:n": "npm publish",
+    "postinstall": "pnpm husky install"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^16.1.0",
+    "@commitlint/config-conventional": "^16.0.0",
+    "@commitlint/prompt-cli": "^16.1.0",
+    "conventional-github-releaser": "^3.1.5",
+    "husky": "^7.0.4",
+    "lint-staged": "^12.2.1",
+    "prettier": "^2.5.1",
+    "standard-version": "^9.3.2"
+  }
+}

@@ -1,0 +1,41 @@
+name: New upstream
+description: add a new upstream
+title: "[Feat]: "
+labels: ["feat"]
+body:
+  - type: input
+    id: what-service
+    attributes:
+      label: what service
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: problem
+    validations:
+      required: false
+  - type: textarea
+    id: example
+    attributes:
+      label: example
+    validations:
+      required: false
+  - type: input
+    id: offical-mirror
+    attributes:
+      label: offical mirror
+    validations:
+      required: false
+  - type: input
+    id: our-mirror
+    attributes:
+      label: our mirror
+    validations:
+      required: false
+  - type: textarea
+    id: usage
+    attributes:
+      label: usage
+    validations:
+      required: true
