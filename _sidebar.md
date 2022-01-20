@@ -11,3 +11,4 @@
 
 - [Contribute](template/new-upstream.md)
 - [Changelog](CHANGELOG.md)
+- [Sponsor project](sponsor-project.md)

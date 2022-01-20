@@ -4,7 +4,8 @@
 
 ## Concept
 
-The advantages of CDN can be used in package distribution, and there are already precedents for using it, such as npm, debian, alpine...
+The advantages of CDN can be used in package distribution, and there are already precedents for using it, such as npm,
+debian, alpine...
 
 This project aims to improve the plight of some developers due to network problems with the help of CDNs
 
@@ -20,40 +21,35 @@ Domain combination rule:
 DNS record:
 
 ```dns
-*.fastly.mirr.one.      1	IN	CNAME	j.sni.fastly.net.
-*.gcdn.mirr.one.        1	IN	CNAME	cl-bec3d0f7.gcdn.co.
+*.fastly.mirr.one.      1 IN CNAME j.sni.fastly.net.
+*.gcdn.mirr.one.        1 IN CNAME cl-bec3d0f7.gcdn.co.
 ```
 
 ## Usage
 
-E.g. ubuntu:
+E.g. npm registry:
 
 ```sh
-sudo su
-
-## http
 # set
-sed -i 's/archive.ubuntu.com/ubuntu.fastly.mirr.one/g' /etc/apt/sources.list
-sed -i 's/security.ubuntu.com/ubuntu-sec.fastly.mirr.one/g' /etc/apt/sources.list
+npm config set registry https://npm.fastly.mirr.one
+
+yarn config set registry https://npm.fastly.mirr.one
+
+pnpm config set registry https://npm.fastly.mirr.one
 
 # unset
-sed -i 's/ubuntu.fastly.mirr.one/archive.ubuntu.com/g' /etc/apt/sources.list
-sed -i 's/ubuntu-sec.fastly.mirr.one/security.ubuntu.com/g' /etc/apt/sources.list
+npm config set registry https://registry.npmjs.org
 
+yarn config set registry https://registry.npmjs.org
 
-## https need  ca-certificates  installed
-# set
-sed -i 's/http:\/\/archive.ubuntu.com/https:\/\/ubuntu.fastly.mirr.one/g' /etc/apt/sources.list
-sed -i 's/http:\/\/security.ubuntu.com/https:\/\/ubuntu-sec.fastly.mirr.one/g' /etc/apt/sources.list
-
-# unset
-sed -i 's/https:\/\/ubuntu.fastly.mirr.one/http:\/\/archive.ubuntu.com/g' /etc/apt/sources.list
-sed -i 's/https:\/\/ubuntu-sec.fastly.mirr.one/http:\/\/security.ubuntu.com/g' /etc/apt/sources.list
+pnpm config set registry https://registry.npmjs.org
 ```
 
 ## Sponsors
 
-- [Fastly](https://www.fastly.com/)
+| fastly CDN                                                                         |
+| ---------------------------------------------------------------------------------- |
+| <a href="https://www.fastly.com/"><img src="_images/fastly.svg" width="120px"></a> |
 
 ## Providers
 
