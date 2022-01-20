@@ -32,10 +32,13 @@ not provide
 
 ## our mirror
 
-`fonts-gapi.fib.one` provide by Cloudflare Workers
+`fonts-gapis.fib.one` provide by Cloudflare Workers
 
 ## usage
 
 ```html
-<link rel="stylesheet" href="https://fonts-gapi.fib.one/css?family=Tangerine" />
+<link
+  rel="stylesheet"
+  href="https://fonts-gapis.fib.one/css?family=Tangerine"
+/>
 ```
