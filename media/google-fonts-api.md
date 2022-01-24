@@ -28,17 +28,17 @@ Can't access `fonts.googleapis.com`
 
 ## official mirror
 
-not provide
+`fonts.googleapis.cn`
 
 ## our mirror
 
-`fonts-gapis.fib.one` provide by Cloudflare Workers
+not provide
 
 ## usage
 
 ```html
 <link
   rel="stylesheet"
-  href="https://fonts-gapis.fib.one/css?family=Tangerine"
+  href="https://fonts.googleapis.cn/css?family=Tangerine"
 />
 ```

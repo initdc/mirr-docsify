@@ -4,8 +4,7 @@
 
 ## Concept
 
-The advantages of CDN can be used in package distribution, and there are already precedents for using it, such as npm,
-debian, alpine...
+The advantages of CDN can be used in package distribution, and there are already precedents for using it, such as npm, debian, alpine...
 
 This project aims to improve the plight of some developers due to network problems with the help of CDNs
 
