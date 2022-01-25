@@ -9,6 +9,7 @@
   - [Google fonts](media/google-fonts.md)
   - [Google fonts api](media/google-fonts-api.md)
   - [Backblaze B2](media/backblaze-b2.md)
+  - [Github raw](media/github-raw.md)
 - [Contribute](template/new-upstream.md)
 - [Changelog](CHANGELOG.md)
 - [Sponsor project](sponsor-project.md)
