@@ -1,5 +1,6 @@
 - OS images
   - [Android AVD](os-images/android-avd.md)
+  - [ubuntu CD](os-images/ubuntu-cd.md)
 - OS packages
   - [ubuntu](os-packages/ubuntu.md)
 - Software

@@ -6,7 +6,7 @@
 
 ## official mirror
 
-none
+https://launchpad.net/ubuntu/+archivemirrors
 
 ## our mirror
 
