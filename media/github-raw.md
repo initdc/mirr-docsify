@@ -20,6 +20,10 @@ none
 
 `raw-gh.gcdn.mirr.one`
 
+`raw-gh.mirr.one` - cloudflare Workers
+
+> `raw-gh.cf.mirr.one` not support https, so `.cf` is omitted
+
 ## usage
 
 replace url
