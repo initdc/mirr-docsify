@@ -34,14 +34,11 @@ npm config set registry https://npm.fastly.mirr.one
 
 yarn config set registry https://npm.fastly.mirr.one
 
-pnpm config set registry https://npm.fastly.mirr.one
 
 # unset
 npm config set registry https://registry.npmjs.org
 
 yarn config set registry https://registry.npmjs.org
-
-pnpm config set registry https://registry.npmjs.org
 ```
 
 ## Sponsors
