@@ -11,6 +11,8 @@
   - [Backblaze B2](media/backblaze-b2.md)
   - [Github raw](media/github-raw.md)
   - [Github release](media/github-release.md)
+- etc.
+  - [Github source](etc/github-source.md)
 - [Contribute](template/new-upstream.md)
 - [Changelog](CHANGELOG.md)
 - [Sponsor project](sponsor-project.md)
