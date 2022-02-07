@@ -53,6 +53,8 @@ yarn config set registry https://registry.npmjs.org
 - [Cloudflare](https://www.cloudflare.com/)
 - [G-core labs](https://gcorelabs.com/)
 - [Netlify](https://www.netlify.com/)
+- [fly.io](https://fly.io/)
+- [Heroku](https://www.heroku.com/)
 
 ## License
 
