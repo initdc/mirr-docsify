@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2022.2.8](https://github.com/initdc/mirr-docsify/compare/v2022.2.2...v2022.2.8) (2022-02-07)
+
+### Features
+
+- **github:** add github release direct logic, add new providers ([fdca863](https://github.com/initdc/mirr-docsify/commit/fdca8639b47122ba6d34439c1ff5194b14ebf648))
+- **github:** add github source for git clone ([9636260](https://github.com/initdc/mirr-docsify/commit/9636260aed2e95b045bdeb50ac82ab9c07b478b3))
+
 ### 2022.2.2 (2022-02-02)
 
 ### Features
