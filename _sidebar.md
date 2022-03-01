@@ -14,6 +14,7 @@
   - [Github release direct](media/github-release-direct.md)
 - etc.
   - [Github source](etc/github-source.md)
+  - [Githubusercontent](etc/githubusercontent.md)
 - [Contribute](template/new-upstream.md)
 - [Changelog](CHANGELOG.md)
 - [Sponsor project](sponsor-project.md)

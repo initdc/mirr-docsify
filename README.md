@@ -20,8 +20,9 @@ Domain combination rule:
 DNS record:
 
 ```dns
-*.fastly.mirr.one.      1 IN CNAME j.sni.fastly.net.
+*.mirr.one.              1 IN CNAME workers.dev.  // Cloudflare’s free SSL cert covered main domain and any 2nd level subdomain
 *.gcdn.mirr.one.        1 IN CNAME cl-bec3d0f7.gcdn.co.
+*.fastly.mirr.one.      1 IN CNAME nonssl.global.fastly.net.    // Developer account does not support add SSL certificates
 ```
 
 ## Usage
@@ -49,8 +50,8 @@ yarn config set registry https://registry.npmjs.org
 
 ## Providers
 
-- [Fastly](https://www.fastly.com/)
 - [Cloudflare](https://www.cloudflare.com/)
+- [Fastly](https://www.fastly.com/)
 - [G-core labs](https://gcorelabs.com/)
 - [Netlify](https://www.netlify.com/)
 - [fly.io](https://fly.io/)

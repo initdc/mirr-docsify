@@ -33,6 +33,9 @@ none
 - [Data transfer with Backblaze B2 | Fastly Help Guides](https://docs.fastly.com/en/guides/data-transfer-with-backblaze-b2)
 
   ```js
+  // Not support https, only for downloading resource
+  // Don't use it for providing website resource
+
   f001.fastly.mirr.one;
   f002.fastly.mirr.one;
   f003.fastly.mirr.one;

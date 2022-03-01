@@ -16,18 +16,32 @@ none
 
 ## our mirror
 
+`gh-cf.mirr.one`
+
 `gh.gcdn.mirr.one`
 
 `gh.fastly.mirr.one`
 
+## browsing mirror
+
+`gh-rep.mirr.one` - replace all redirect URL of `.githubusercontent.com` to `-ghuser.mirr.one`, powered by Cloudflare Workers
+
 ## usage
 
-`git clone` with https, replace url
+- repo used by software (eg. brew)
 
-```sh
-git clone https://gh.gcdn.mirr.one/element-plus/element-plus.git
+  https://coding.net
 
-cd element-plus
+  import repo as mirror repo from github, enable auto-sync
 
-git remote add github https://github.com/element-plus/element-plus.git
-```
+- Human managed
+
+  `git clone` with https, replace url
+
+  ```sh
+  GIT_SSL_NO_VERIFY=1 git clone https://gh.gcdn.mirr.one/element-plus/element-plus.git
+
+  cd element-plus
+
+  git remote add github https://github.com/element-plus/element-plus.git
+  ```

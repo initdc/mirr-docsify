@@ -16,18 +16,16 @@ none
 
 ## our mirror
 
-`raw-gh.fastly.mirr.one`
-
 `raw-gh.gcdn.mirr.one`
 
-`raw-gh.mirr.one` - cloudflare Workers
+`raw-gh.mirr.one` - Cloudflare Workers
 
-> `raw-gh.cf.mirr.one` not support https, so `.cf` is omitted
+`raw-gh.fastly.mirr.one`
 
 ## usage
 
 replace url
 
 ```sh
-sh <(curl -L https://raw-gh.fastly.mirr.one/initdc/vvtt/master/gen.sh)
+sh <(curl -L https://raw-gh.gcdn.mirr.one/initdc/vvtt/master/gen.sh)
 ```
