@@ -1,10 +1,10 @@
 # 镜像
 
-> A free CDN for Open Source
+> 为开源的免费 CDN
 
-## Concept
+## 概念
 
-The advantages of CDN can be used in package distribution, and there are already precedents for using it, such as npm, debian, alpine...
+CDN的优势可以用在包分发上，已经有使用的先例了，比如npm、debian、alpine...
 
 本项目旨在借助 CDN 改善部分开发者因网络问题而面临的困境
 
@@ -15,7 +15,7 @@ The advantages of CDN can be used in package distribution, and there are already
 软件 | CDN 提供商 | 主域
 --- | --- | ---
 ubuntu. | fastly. | mirr.one
-ubuntu. | gcdn. | mirr.one
+ubuntu. | fastly. | mirr.one
 
 DNS记录：
 
@@ -51,9 +51,9 @@ fastly CDN
 ## 提供者
 
 - [Cloudflare](https://www.cloudflare.com/)
-- [Fastly](https://www.fastly.com/)
+- [ Fastly](https://www.fastly.com/)
 - [G-core labs](https://gcorelabs.com/)
-- [Netlify](https://www.netlify.com/)
+- [ Netlify](https://www.netlify.com/)
 - [fly.io](https://fly.io/)
 - [Heroku](https://www.heroku.com/)
 
