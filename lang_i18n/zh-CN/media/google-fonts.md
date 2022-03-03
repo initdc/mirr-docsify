@@ -4,11 +4,11 @@
 
 无法访问`fonts.gstatic.com`
 
-## 官方镜子
+## 官方镜像
 
 `fonts.gstatic.cn`
 
-## 我们的镜子
+## 我们的镜像
 
 不提供
 

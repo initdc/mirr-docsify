@@ -4,7 +4,7 @@
 
 无法访问`fonts.googleapis.com`
 
-## 例子
+## 示例
 
 ```html
 <html>

@@ -32,13 +32,13 @@ DNS 记录：
 例如 npm 注册表：
 
 ```sh
-# set
+# 设定
 npm config set registry https://npm.fastly.mirr.one
 
 yarn config set registry https://npm.fastly.mirr.one
 
 
-# unset
+# 取消设定
 npm config set registry https://registry.npmjs.org
 
 yarn config set registry https://registry.npmjs.org
@@ -63,6 +63,6 @@ yarn config set registry https://registry.npmjs.org
 
 - [gitlocalize](https://gitlocalize.com/)
 
-## 执照
+## 许可协议
 
 MPL-2.0
