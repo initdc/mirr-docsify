@@ -2,11 +2,11 @@
 
 # mirr.one :id=coverpage
 
-> A free CDN for Open Source
+> 为开源的免费 CDN
 
 - Linux 软件包
 - npm 注册表
 - Github 发布
 - 和更多 ...
 
-[Getting Started](#mirrone)
+[现在开始](#mirrone)
