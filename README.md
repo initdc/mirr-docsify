@@ -2,6 +2,8 @@
 
 > A free CDN for Open Source
 
+[![gitlocalized ](https://gitlocalize.com/repo/7163/whole_project/badge.svg)](https://gitlocalize.com/repo/7163/whole_project?utm_source=badge)
+
 ## Concept
 
 The advantages of CDN can be used in package distribution, and there are already precedents for using it, such as npm, debian, alpine...
@@ -56,6 +58,10 @@ yarn config set registry https://registry.npmjs.org
 - [Netlify](https://www.netlify.com/)
 - [fly.io](https://fly.io/)
 - [Heroku](https://www.heroku.com/)
+
+## lang_i18n Provider
+
+- [gitlocalize](https://gitlocalize.com/)
 
 ## License
 

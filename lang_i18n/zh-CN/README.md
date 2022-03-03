@@ -2,6 +2,8 @@
 
 > 为开源的免费 CDN
 
+[![gitlocalized ](https://gitlocalize.com/repo/7163/whole_project/badge.svg)](https://gitlocalize.com/repo/7163/whole_project?utm_source=badge)
+
 ## 概念
 
 CDN 的优势可以用在包分发上，已经有使用的先例了，比如 npm、debian、alpine...
@@ -51,11 +53,15 @@ yarn config set registry https://registry.npmjs.org
 ## 提供者
 
 - [Cloudflare](https://www.cloudflare.com/)
-- [ Fastly](https://www.fastly.com/)
+- [Fastly](https://www.fastly.com/)
 - [G-core labs](https://gcorelabs.com/)
-- [ Netlify](https://www.netlify.com/)
+- [Netlify](https://www.netlify.com/)
 - [fly.io](https://fly.io/)
 - [Heroku](https://www.heroku.com/)
+
+## lang_i18n Provider
+
+- [gitlocalize](https://gitlocalize.com/)
 
 ## 执照
 
