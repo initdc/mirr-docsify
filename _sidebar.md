@@ -9,9 +9,9 @@
   - [Google fonts](media/google-fonts.md)
   - [Google fonts api](media/google-fonts-api.md)
   - [Backblaze B2](media/backblaze-b2.md)
-  - [Github raw](media/github-raw.md)
-  - [Github release](media/github-release.md)
-  - [Github release direct](media/github-release-direct.md)
+  - [Githubuser raw](media/github-raw.md)
+  - [Githubuser objects](media/github-objects.md)
+  - [Github release download](media/github-release.md)
 - etc.
   - [Github source](etc/github-source.md)
   - [Githubusercontent](etc/githubusercontent.md)

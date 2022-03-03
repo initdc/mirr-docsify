@@ -14,7 +14,7 @@ If it's helpful to understand, you can provide
 
 ## our mirror
 
-`` or not provider
+`` or not provide
 
 ## usage
 

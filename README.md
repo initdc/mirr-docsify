@@ -20,7 +20,7 @@ Domain combination rule:
 DNS record:
 
 ```dns
-*.mirr.one.              1 IN CNAME workers.dev.  // Cloudflare’s free SSL cert covered main domain and any 2nd level subdomain
+*.mirr.one.             1 IN CNAME workers.dev.  // Cloudflare’s free SSL cert covered main domain and any 2nd level subdomain
 *.gcdn.mirr.one.        1 IN CNAME cl-bec3d0f7.gcdn.co.
 *.fastly.mirr.one.      1 IN CNAME nonssl.global.fastly.net.    // Developer account does not support add SSL certificates
 ```
