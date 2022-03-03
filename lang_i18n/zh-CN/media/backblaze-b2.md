@@ -1,6 +1,6 @@
 # Backblaze B2
 
-## upstream
+## 上游
 
 ```js
 f001.backblazeb2.com;
@@ -17,11 +17,11 @@ f004.backblazeb2.com;
 
 ## 官方镜像
 
-none
+没有
 
 ## 我们的镜像
 
-- [Bandwidth Alliance - Backblaze | Cloudflare](https://www.cloudflare.com/zh-cn/bandwidth-alliance/backblaze/)
+- [带宽联盟 - Backblaze | Cloudflare](https://www.cloudflare.com/zh-cn/bandwidth-alliance/backblaze/)
 
     ```js
     f001.mirr.one;
@@ -30,7 +30,7 @@ none
     f004.mirr.one;
     ```
 
-- [Data transfer with Backblaze B2 | Fastly Help Guides](https://docs.fastly.com/en/guides/data-transfer-with-backblaze-b2)
+- [使用 Backblaze B2 进行数据传输 |快速帮助指南](https://docs.fastly.com/en/guides/data-transfer-with-backblaze-b2)
 
     ```js
     // Not support https, only for downloading resource
@@ -42,10 +42,10 @@ none
     f004.fastly.mirr.one;
     ```
 
-## usage
+## 用法
 
-replace url
+替换网址
 
-> **![WARNING] Don't download resource with multi-thread downloader, which will spend a lot of request quota.**
+> **![WARNING] 不要使用多线程下载器下载资源，这会消耗大量的请求配额。**
 
-![B2 warning](../_images/b2-warning.jpg)
+![B2 警告](../_images/b2-warning.jpg)
