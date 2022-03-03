@@ -1,16 +1,16 @@
 # Android AVD(虚拟机磁盘文件)
 
-## upstream
+## 上游
 
 `dl.google.com`
 
-## problem
+## 问题
 
 无法访问，因此无法下载 Android AVD(虚拟机磁盘文件)
 
-## official mirror
+## 官方镜子
 
-none
+没有
 
 ## 我们的镜像
 
@@ -18,6 +18,6 @@ none
 
 `dl.gcdn.mirr.one`
 
-## usage
+## 用法
 
-replace url
+替换网址
