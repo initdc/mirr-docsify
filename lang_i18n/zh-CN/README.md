@@ -22,9 +22,9 @@ CDN 的优势可以用在包分发上，已经有使用的先例了，比如 npm
 DNS 记录：
 
 ```dns
-*.mirr.one.             1 IN CNAME workers.dev.  // Cloudflare’s free SSL cert covered main domain and any 2nd level subdomain
+*.mirr.one.             1 IN CNAME workers.dev.  // Cloudflare’s 免费 SSL 证书覆盖主域及其二级子域名
 *.gcdn.mirr.one.        1 IN CNAME cl-bec3d0f7.gcdn.co.
-*.fastly.mirr.one.      1 IN CNAME nonssl.global.fastly.net.    // Developer account does not support add SSL certificates
+*.fastly.mirr.one.      1 IN CNAME nonssl.global.fastly.net.    // 开发者账户不能添加 SSL 证书
 ```
 
 ## 用法
