@@ -8,7 +8,7 @@
 
 没有
 
-## our mirror
+## 我们的镜像
 
 `npm.fastly.mirr.one`
 
