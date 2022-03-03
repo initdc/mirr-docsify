@@ -48,4 +48,4 @@ replace url
 
 > **![WARNING] Don't download resource with multi-thread downloader, which will spend a lot of request quota.**
 
-![B2 warning](../_images/b2-warning.jpg)
+![B2 warning](/_images/b2-warning.jpg)

@@ -4,7 +4,7 @@
 
 `registry.npmjs.org`
 
-## 官方镜子
+## 官方镜像
 
 没有
 

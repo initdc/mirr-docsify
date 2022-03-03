@@ -44,9 +44,9 @@ yarn config set registry https://registry.npmjs.org
 
 ## Sponsors
 
-| fastly CDN                                                                         |
-| ---------------------------------------------------------------------------------- |
-| <a href="https://www.fastly.com/"><img src="_images/fastly.svg" width="120px"></a> |
+| fastly CDN                                                                          |
+| ----------------------------------------------------------------------------------- |
+| <a href="https://www.fastly.com/"><img src="/_images/fastly.svg" width="120px"></a> |
 
 ## Providers
 

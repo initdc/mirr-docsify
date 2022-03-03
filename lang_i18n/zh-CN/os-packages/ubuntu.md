@@ -1,4 +1,4 @@
-# ubuntu 包
+# ubuntu 软件包
 
 ## 上游
 

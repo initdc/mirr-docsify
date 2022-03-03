@@ -1,4 +1,4 @@
-# 镜像
+# mirr.one
 
 > 为开源的免费 CDN
 
@@ -44,9 +44,9 @@ yarn config set registry https://registry.npmjs.org
 
 ## 赞助商
 
-## fastly CDN
-
-<a href="https://www.fastly.com/"></a>
+| fastly CDN                                                                          |
+| ----------------------------------------------------------------------------------- |
+| <a href="https://www.fastly.com/"><img src="/_images/fastly.svg" width="120px"></a> |
 
 ## 提供者
 

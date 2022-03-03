@@ -1,8 +1,7 @@
-const newTypeEnum = ["lang"];
-
+const commit_cc = require("@commitlint/config-conventional");
 module.exports = {
-  extends: ["@commitlint/config-conventional"],
   rules: {
-    "type-enum": [2, "always", newTypeEnum],
+    "type-enum": [2, "always", ["lang", ...commit_cc.rules["type-enum"][2]]],
   },
+  ...commit_cc,
 };

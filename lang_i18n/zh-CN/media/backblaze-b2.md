@@ -48,4 +48,4 @@ f004.backblazeb2.com;
 
 > **![WARNING] 不要使用多线程下载器下载资源，这会消耗大量的请求配额。**
 
-![B2 警告](../_images/b2-warning.jpg)
+![B2 警告](/_images//b2-warning.jpg)
