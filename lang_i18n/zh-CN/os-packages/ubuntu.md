@@ -4,11 +4,11 @@
 
 `archive.ubuntu.com`
 
-## official mirror
+## 官方镜像
 
 https://launchpad.net/ubuntu/+archivemirrors
 
-## our mirror
+## 我们的镜像
 
 `ubuntu.fastly.mirr.one`
 
