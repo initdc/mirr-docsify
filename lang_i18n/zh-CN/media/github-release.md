@@ -4,7 +4,7 @@
 
 `github.com`发布下载
 
-## example
+## 示例
 
 ```sh
 wget https://github.com/egoist/bget/releases/download/v1.0.8/bget_1.0.8_Darwin_arm64.tar.gz
@@ -14,7 +14,7 @@ wget https://github.com/egoist/bget/releases/download/v1.0.8/bget_1.0.8_Darwin_a
 
 没有
 
-## local to our mirror
+## 定位到我们的镜像
 
 `gh-rep.mirr.one`
 
@@ -32,7 +32,7 @@ wget https://github.com/egoist/bget/releases/download/v1.0.8/bget_1.0.8_Darwin_a
 
 - 手动选择
 
-    1. get delivr url by access
+    1. 通过访问获取分发链接
 
         https://gh-rel.mirr.one/egoist/bget/releases/download/v1.0.8/bget_1.0.8_Darwin_arm64.tar.gz
 
@@ -46,7 +46,7 @@ wget https://github.com/egoist/bget/releases/download/v1.0.8/bget_1.0.8_Darwin_a
 
 > ![DANGER]**以下非标准方法**，将在 2 个版本中更改
 
-- With query
+- 通过查询
 
     - gcdn
 
