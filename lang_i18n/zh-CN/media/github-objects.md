@@ -1,12 +1,12 @@
 # Github用户内容 对象
 
-## upstream
+## 上游
 
 `objects.githubusercontent.com`
 
 ## 官方镜像
 
-none
+没有
 
 ## 我们的镜像
 
@@ -16,6 +16,6 @@ none
 
 `obj-gh.fastly.mirr.one`
 
-## usage
+## 用法
 
-replace url
+替换网址
