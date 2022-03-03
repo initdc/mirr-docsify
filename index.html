@@ -27,15 +27,15 @@
     <div id="app"></div>
     <script>
       // Set html "lang" attribute based on URL
-      var lang = location.hash.match(/\#(zh-cn)/);
-      console.log(location);
+      let lang = location.hash.match(/\#(zh-cn)/);
+      // console.log(location);
       if (lang) {
         document.documentElement.setAttribute("lang", lang[1]);
       }
 
       window.$docsify = {
         name: "mirr.one",
-        elativePath: true,
+        relativePath: false,
         coverpage: {
           "/": "_coverpage.md",
           "/zh-cn": "zh-cn/_coverpage.md",
@@ -44,7 +44,7 @@
         loadSidebar: true,
         nameLink: {
           "/": "#/",
-          "/zh-cn": "#/zh-cn",
+          "/zh-cn/": "#/zh-cn/",
         },
         search: {
           paths: "auto",
@@ -63,12 +63,14 @@
           "(.*)/CHANGELOG": "/CHANGELOG.md",
 
           // prepare for gitLocalize
-          "/zh-cn/": "/lang_i18n/zh-CN/README.md",
+          // "/zh-cn": "/lang_i18n/zh-CN/README.md",
           "/zh-cn/(.*)": "/lang_i18n/zh-CN/$1",
         },
         plugins: [
           function (hook, vm) {
-            let footer = `>---
+            const lang_i18n = ["/", "/zh-cn/"];
+
+            const footer = `>---
 ## Sponsors
 - [Fastly](https://www.fastly.com/)
 `;
@@ -96,8 +98,13 @@
 
               let editHtml = "\n[:memo: Edit Document](" + url + ")\n";
 
-              if (vm.route.path === "/") {
-                return html + editHtml;
+              let path = vm.route.path;
+              // console.log(path);
+
+              for (let i = 0; i < lang_i18n.length; i++) {
+                if (path === lang_i18n[i]) {
+                  return html + editHtml;
+                }
               }
 
               return html + editHtml + footer;
