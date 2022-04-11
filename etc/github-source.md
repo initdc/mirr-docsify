@@ -16,11 +16,21 @@ none
 
 ## our mirror
 
-`gh-cf.mirr.one`
+- https
 
-`gh.gcdn.mirr.one`
+  `gh-cf.mirr.one`
 
-`gh.fastly.mirr.one`
+  `gh.gcdn.mirr.one`
+
+  `gh.fastly.mirr.one`
+
+- ssh
+
+  **![DANGER] Private key will send to mirror server, deploy server by yourself**
+
+  `ssh-fly.mirr.one`
+
+  > ssh proxy by caddy-l4, source code: https://github.com/initdc/ssh-proxy-by-caddy-l4
 
 ## browsing mirror
 
@@ -45,3 +55,7 @@ none
 
   git remote add github https://github.com/element-plus/element-plus.git
   ```
+
+- ssh
+
+  check: https://github.com/initdc/ssh-proxy-by-caddy-l4#run

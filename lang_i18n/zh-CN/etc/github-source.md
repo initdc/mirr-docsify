@@ -16,11 +16,21 @@ git clone https://github.com/element-plus/element-plus.git
 
 ## 我们的镜像
 
-`gh-cf.mirr.one`
+- https
 
-`gh.gcdn.mirr.one`
+  `gh-cf.mirr.one`
 
-`gh.fastly.mirr.one`
+  `gh.gcdn.mirr.one`
+
+  `gh.fastly.mirr.one`
+
+- ssh
+
+  **![危险]   私钥将发送到镜像服务器, 请自己部署服务器**
+
+  `ssh-fly.mirr.one`
+
+  > ssh 代理 通过 caddy-l4, 源码: https://github.com/initdc/ssh-proxy-by-caddy-l4
 
 ## 浏览用途镜像
 
@@ -45,3 +55,7 @@ git clone https://github.com/element-plus/element-plus.git
 
   git remote add github https://github.com/element-plus/element-plus.git
   ```
+
+- ssh
+
+  查看: https://github.com/initdc/ssh-proxy-by-caddy-l4#run
